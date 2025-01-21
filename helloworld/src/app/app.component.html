@@ -1,0 +1,13 @@
+<router-outlet></router-outlet>
+<h1>{{title}}</h1>
+<h3>{{number}}</h3>
+<div *ngIf="condition">
+    <img [src]= "source" alt="image">
+
+</div>
+
+
+
+<ul *ngFor="let name of nameList">
+   <li>{{name}}</li>
+</ul>
