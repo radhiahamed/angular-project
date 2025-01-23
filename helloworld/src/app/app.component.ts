@@ -9,7 +9,7 @@ export class AppComponent {
 
   
   title = "Angular";
-  condition=true;
+  condition=false;
   number=123;
  source="assets/angular.png";
 
